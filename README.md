@@ -1,4 +1,7 @@
-flowstacks-example
+sample-workflow
 ==================
 
-FlowStacks Example Project
+FlowStacks Sample Workflow Project
+
+Version 1:
+Initial Repository Example
