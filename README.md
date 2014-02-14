@@ -1,7 +1,14 @@
-sample-workflow
-==================
+The FlowStacks Sample Workflow
+------
+Version 1.0:
+Alpha - Release
 
-FlowStacks Sample Workflow Project
+How to Use the Sample FlowStacks Project
+------
+1. Clone the Repo
+2. Refer to the Alpha documentation here: https://flowstacks.com/
 
-Version 1:
-Initial Repository Example
+
+
+
+

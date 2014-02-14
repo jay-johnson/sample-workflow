@@ -1,0 +1,159 @@
+{
+    "FlowStacks Workflow Project Description"  : {
+        "Version"               : 1,
+        "Purpose"               : "To demonstrate the FlowStacks Workflow Project in an ready to use example",
+        "Contact"               : "common@flowstacks.com",
+        "Developer Website"     : "www.flowstacks.com",
+        "Market"                : "Examples",
+        "Industry"              : "Examples",
+        "Tags"                  : [ 
+                                    "example",
+                                    "sample"
+        ]
+    },
+    "FlowStacks Workflow Project Source API"  : [
+        {
+            "Meta Data"     : {
+                "Module Name"   : "An Example Module Name",
+                "Description"   : "A Description of this Module and its purpose",
+                "Author ID"     : "Your Name",
+                "Contact"       : "your_email@email.com",
+                "Version"       : "1",
+                "Copyright"     : "2014"
+            },
+            "API Data"      : {
+                "Filename"      : "src/ra_example_module.py",
+                "Module"        : "ra_example_module",
+                "Class Name"    : "RA_ExampleModule",
+                "Inputs"        : {
+                                    "This is an Input Key"  : "String"
+                },
+                "Outputs"       : {
+                                    "Status"                : "String",
+                                    "This is an Output Key" : "String"
+                }
+            }
+        },
+        {
+            "Meta Data"     : {
+                "Module Name"   : "Delete Simple User Value",
+                "Description"   : "Delete the Simple User Value stored on the Environment in the Storage Key ID",
+                "Author ID"     : "FlowStacks Inc.",
+                "Contact"       : "common@flowstacks.com",
+                "Version"       : "1",
+                "Copyright"     : "2013"
+            },
+            "API Data"      : {
+                "Filename"      : "src/ra_delete_simple_user_value.py",
+                "Module"        : "ra_delete_simple_user_value",
+                "Class Name"    : "RA_DeleteSimpleUserValue",
+                "Inputs"        : {
+                                    "Storage Key ID"        : "String"
+                },
+                "Outputs"       : {
+                                    "Status"                : "String",
+                                    "Stored Value"          : "String",
+                                    "Storage Key ID"        : "String"
+                }
+            }
+        },
+        {
+            "Meta Data"     : {
+                "Module Name"   : "Get Simple User Value",
+                "Description"   : "Get the Simple User Value stored on the Environment in the Storage Key ID",
+                "Author ID"     : "FlowStacks Inc.",
+                "Contact"       : "common@flowstacks.com",
+                "Version"       : "1",
+                "Copyright"     : "2013"
+            },
+            "API Data"      : {
+                "Filename"      : "src/ra_get_simple_user_value.py",
+                "Module"        : "ra_get_simple_user_value",
+                "Class Name"    : "RA_GetSimpleUserValue",
+                "Inputs"        : {
+                                    "Storage Key ID"        : "String"
+                },
+                "Outputs"       : {
+                                    "Status"                : "String",
+                                    "Storage Key ID"        : "String",
+                                    "Stored Value"          : "String"
+                }
+            }
+        },
+        {
+            "Meta Data"     : {
+                "Module Name"   : "Send Email Template To User",
+                "Description"   : "Send an email template that is filled-in by this module to the users.  Replaces <USER.NAME> with the name field.",
+                "Author ID"     : "FlowStacks Inc.",
+                "Contact"       : "common@flowstacks.com",
+                "Version"       : "1",
+                "Copyright"     : "2013"
+            },
+            "API Data"      : {
+                "Filename"      : "src/ra_send_email_template_to_user.py",
+                "Module"        : "ra_send_email_template_to_user",
+                "Class Name"    : "RA_SendEmailTemplateToUsers",
+                "Inputs"        : {
+                                    "User Name"             : "String",
+                                    "User Email Address"    : "String",
+                                    "From"                  : "String",
+                                    "Subject"               : "String",
+                                    "Email Template"        : "String",
+                                    "Gmail User"            : "String",
+                                    "Gmail Password"        : "String"
+                },
+                "Outputs"       : {
+                                    "Status"                : "String"
+                }
+            }
+        },
+        {
+            "Meta Data"     : {
+                "Module Name"   : "Store Simple User Value",
+                "Description"   : "Store the Simple User Value into the Environment",
+                "Author ID"     : "FlowStacks Inc.",
+                "Contact"       : "common@flowstacks.com",
+                "Version"       : "1",
+                "Copyright"     : "2013"
+            },
+            "API Data"      : {
+                "Filename"      : "src/ra_store_simple_user_value.py",
+                "Module"        : "ra_store_simple_user_value",
+                "Class Name"    : "RA_StoreSimpleUserValue",
+                "Inputs"        : {
+                                    "Access Token"          : "String",
+                                    "Value To Store"        : "String"      
+                },
+                "Outputs"       : {               
+                                    "Status"                : "String",
+                                    "Storage Key ID"        : "String"
+                }
+            }
+        },
+        {
+            "Meta Data"     : {
+                "Module Name"   : "Update Simple User Value",
+                "Description"   : "Update the Simple User Value on the Environment in the Storage Key ID",
+                "Author ID"     : "FlowStacks Inc.",
+                "Contact"       : "common@flowstacks.com",
+                "Version"       : "1",
+                "Copyright"     : "2013"
+            },
+            "API Data"      : {
+                "Filename"      : "src/ra_update_simple_user_value.py",
+                "Module"        : "ra_update_simple_user_value",
+                "Class Name"    : "RA_UpdateSimpleUserValue",
+                "Inputs"        : {
+                                    "Access Token"          : "String",
+                                    "Storage Key ID"        : "String",
+                                    "Value To Update"       : "String"
+                },
+                "Outputs"       : {
+                                    "Status"                : "String",
+                                    "Storage Key ID"        : "String"
+                }
+            }
+        }
+    ]
+}
+
