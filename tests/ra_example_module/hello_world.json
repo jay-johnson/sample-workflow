@@ -1,16 +1,12 @@
 {
-<<<<<<< HEAD
-    "RequestType" : 0,
-=======
     "Module Index"  : 1,
->>>>>>> fs/master
     "Module Inputs" : {
         "Status"                : "SUCCESS",
-        "This is an Input Key"  : "Running Test 1"
+        "This is an Input Key"  : "HELLO WORLD"
     },
     "Expected Module Outputs" : {
         "Status"                : "SUCCESS",
-        "This is an Output Key" : "Running Test 1"
+        "This is an Output Key" : "HELLO WORLD"
     }
 }
 
